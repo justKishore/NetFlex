@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-size: 0;
+  font-family: "Roboto", sans-serif;
+}
+.top-container {
+  width: 100%;
+  height: 800px; /*remove height at end*/
+
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../images/backgroundimg.jpg");
+}
+
+/* Navbar and its items */
+.n-navbar {
+  padding-top: 20px;
+  /* background-color: red; remove this */
+  width: 100%;
+}
+
+.n-navbar-logo {
+  width: 10.4375rem;
+  margin-left: 3.5rem;
+  height: 2.8125rem;
+}
+
+.n-nav-options {
+  /* display: inline-block; */
+  float: right;
+  margin-left: auto;
+  padding: 0.5rem 2rem 0;
+}
+
+.n-nav-language,
+.n-nav-signin {
+  display: inline-block;
+}
+.n-nav-language {
+  margin-right: 2rem;
+}
+
+#page-language-selection {
+  line-height: 1.3em;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0.5rem 1.375rem;
+}
+
+.n-nav-signin > a {
+  background-color: #e50914;
+  border-radius: 3px;
+  color: #fff;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* End of navbar */
+
+/* sub-main-container and it's items */
+.sub-main-container {
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  /* border: 1px solid red; remove this */
+  padding: 100px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sub-main-container-description {
+  padding: 50px 20px 0; /*value give by me not accurate*/
+  margin: 0 4.688rem;
+}
+.sub-main-container-description h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0 auto;
+}
+.sub-main-container-description h2 {
+  font-size: 1.625rem;
+}
+
+.sub-main-container-description h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Get started line */
+
+.sub-main-container-input {
+  margin: 0 4.688rem;
+  padding: 20px;
+}
+
+.form-div {
+  width: auto;
+  height: 70px;
+}
+.get-started-form {
+  width: auto;
+  height: 70px;
+}
+
+#smc-email {
+  border-radius: 3px;
+  border: solid 1px #8c8c8c;
+  width: 70%;
+  height: 100%;
+}
+
+#smc-submit {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-left: 1px solid black;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  width: 25%;
+  /* margin-left: -8px; */
+  min-width: 100px;
+  height: 70px !important;
+  padding: 4px 0 6px; /*added to align*/
+}
+
+/* Style for Sign In Page */
+
+.main-form-container {
+  max-width: 450px;
+  /* height: 800px; remove height */
+  /* background-color: rosybrown; */
+  margin: 0 auto;
+  padding: 0 5%;
+  color: #fff;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.sub-form-container {
+  /* border: 1px solid red; */
+  padding: 60px 68px 40px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.sub-form-container h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.sign-in-input {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+#uemail,
+#upwd {
+  border-radius: 4px;
+  background: #333;
+  border: 0;
+  color: #fff;
+  height: 40px;
+  font-size: 1rem;
+  line-height: 50px;
+  padding: 16px 0 0;
+  width: 100%;
+  outline: none;
+}
+
+#submit {
+  background-color: red;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 50px;
+  width: 100%;
+  font-weight: 400px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.sign-in-help {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 300;
+}
+.remember-me {
+  display: inline-block;
+}
+
+.need-help {
+  color: inherit;
+  float: right;
+  text-decoration: none;
+}
+
+.facebook-login {
+  color: #737373;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.facebook-login > img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.new-netflix {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.new-netflix-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.g-recaptcha {
+  margin-top: 11px;
+  font-size: 13px;
+  color: #8c8c8c;
+  margin-bottom: 150px;
+}
+
+.g-recaptcha > span > a {
+  color: #0071eb;
+  text-decoration: none;
+}

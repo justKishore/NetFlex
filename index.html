@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kishore S" />
+    <title>NetFlex</title>
+    <link rel="icon" href="assets/images/titleicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="top-container">
+      <nav class="n-navbar">
+        <!-- Add logo here -->
+        <img
+          class="n-navbar-logo"
+          src="assets/images/Netflix_2015_logo.svg"al
+          alt="NetFlex-Logo"
+        />
+        <!-- div for right side options -->
+        <div class="n-nav-options">
+          <!-- should add dropdown menu for languages -->
+          <div class="n-nav-language">
+            <select name="page-language" id="page-language-selection">
+              <option value="English">English</option>
+              <option value="English">தமிழ்</option>
+              <option value="English">हिन्दी</option>
+            </select>
+          </div>
+          <!-- should add Sign In link -->
+          <div class="n-nav-signin">
+            <a href="sign-in.html">Sign In</a>
+          </div>
+        </div>
+      </nav>
+      <!-- end of n-navbar -->
+      <!-- div for adding the main discription text and input field -->
+      <div class="sub-main-container">
+        <!-- For the description -->
+        <div class="sub-main-container-description">
+          <h1>Unlimited movies, TV shows and more.</h1>
+          <h2>Watch anywhere. Cancel anytime.</h2>
+          <h3>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+        </div>
+        <!-- for email and get started -->
+        <div class="sub-main-container-input">
+          <div class="form-div">
+            <form class="get-started-form" action="">
+              <input
+                type="email"
+                name="smc-email"
+                id="smc-email"
+                placeholder="Email address"
+              />
+              <input
+                type="submit"
+                value="Get Started &nbsp; >"
+                id="smc-submit"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of top-container -->
+  </body>
+</html>
